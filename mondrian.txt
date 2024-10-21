@@ -1,0 +1,4 @@
+repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
+source vendor/lineage/build/envsetup.sh
+repopick -g https://review.lineageos.org -P vendor/lineage 367044
+repopick -g https://review.lineageos.org -P hardware/qcom-caf/sm8450/display 397275
